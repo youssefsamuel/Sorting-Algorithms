@@ -146,7 +146,7 @@ def smallest(x, k):
 
 def main():
     sortingName = ["Quick Sort"," Hybrid Merge Sort", "Normal Merge Sort", "Selection Sort", "Insertion Sort", "Bubble Sort"]
-    n = [5000]
+    n = [1000, 5000, 10000, 50000, 100000]
     for i in range(0, len(n)):
         print(f"Array size = {n[i]}: \n")
         x = [0]*n[i]
